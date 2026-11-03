@@ -12,18 +12,18 @@ st.markdown("""
 
 /* Main background */
 .stApp {
-    background-color: #FFF0F5 !important;
+    background-color: #E6D6F5 !important;
     color: #000000 !important;
 }
 
 /* Header */
 [data-testid="stHeader"] {
-    background-color: #FFF0F5 !important;
+    background-color: #E6D6F5 !important;
 }
 
 /* Sidebar */
 [data-testid="stSidebar"] {
-    background-color: #21113D !important;
+    background-color: #D8BFF0 !important;
 }
 
 [data-testid="stSidebar"] * {
@@ -32,7 +32,7 @@ st.markdown("""
 
 /* Main headings */
 h1, h2, h3, p, label {
-    color: #160D2B !important;
+    color: #4B286D !important;
 }
 
 /* Chat messages */
