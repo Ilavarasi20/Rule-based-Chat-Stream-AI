@@ -23,7 +23,7 @@ st.markdown("""
 
 /* Sidebar */
 [data-testid="stSidebar"] {
-    background-color: #D8BFF0 !important;
+    background-color: #21113D !important;
 }
 
 [data-testid="stSidebar"] * {
