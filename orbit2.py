@@ -101,10 +101,22 @@ def chatbot_response(user_input):
         return "I'm ChatStream AI, your friendly chatbot! 🤖"
 
     elif "what can you do" in message:
-        return "I can answer questions, tell jokes, explain concepts and help you learn! ✨"
+        return "I can answer questions, tell jokes, explain Python concepts and help you learn! ✨"
+
+    elif "interesting fact" in message:
+        return "The First Computer mouse was made of Wood!!!"
+
+    elif "python fact" in message:
+        return "Python was named after the Comedy Show (Monty Python), not the snake!🐍"
+
+    elif "tell about me" in message:
+        return "You are so good and kind friend to mee🤗"
+
+    elif "programming language developers list" in message:
+        return "Python - Guido Van Rossum 🐍 , Java - James Gosling 🍵 , C - Dennis Ritchie , C++ - Bjarne Stroustrup , JavaScript - Brendan Eich."
 
     elif "python" in message:
-        return "Python is a popular, beginner-friendly programming language. 🐍"
+        return "Python is a popular, beginner-friendly programming language with Simple and Easy Syntax. 🐍"
 
     elif "joke" in message:
         return "Why did the computer catch a cold? Because someone left its Windows open! 😂"
